@@ -30,10 +30,9 @@ public class Counter {
 
             int len = originalWordList[index].length();
 
-            //Case: One of the words is blank due to non-alphabetic character(s) at the start or end of the input sentence
+            //Case: The word is blank due to non-alphabetic character(s) at the start or end of the input sentence
             if(len == 0){
                 transformedWords[index] = "";
-                continue;
             }
             //Case: The word is just one character long
             else if(len == 1){

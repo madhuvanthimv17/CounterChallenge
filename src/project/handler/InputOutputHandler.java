@@ -27,7 +27,6 @@ public class InputOutputHandler {
             counter = new Counter();
         }
         output = counter.countAndTransform(input);
-        System.out.println("Output : " + output);
     }
 
 
@@ -60,6 +59,7 @@ public class InputOutputHandler {
             }
             else{
                 invokeCounter(args[0]); 
+                System.out.println("Output : " + output);
             }
         }
         else{
