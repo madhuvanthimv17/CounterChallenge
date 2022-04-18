@@ -15,7 +15,7 @@ The src folder has a sub-directory project which has the following 5 packages:
 - `handler`: Contains InputOutputHandler class which validates the input and prints the final output
 - `core`: Contains Counter class which performs the core functionality of counting distinct characters in every word and constructing the output in the desired format
 - `exception`: Contains InvalidArgumentException, a custom defined exception handling class
-- `test`: Contains AppTest class with unit test cases to test the core function
+- `test`: Contains AppTest class with unit test cases to test the core function. It also contains a screenshot of the results of my test run and a spreadsheeet with all my test input and the expected output.
 
 The lib folder contains the following dependencies required for JUnit testing framework:
 
