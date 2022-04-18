@@ -1,6 +1,6 @@
-## Getting Started
+## Counter Challenge
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This application parses a sentence and replaces each word with the following: first letter, number of distinct characters between first and last character, and last letter. The words are separated by spaces or non-alphabetic characters and these separators are maintained in their original form and location in the answer.
 
 ## Folder Structure
 
@@ -17,9 +17,14 @@ The src folder has a sub-directory project which has the following 5 packages:
 - `exception`: Contains InvalidArgumentException, a custom defined exception handling class
 - `test`: Contains AppTest class with unit test cases to test the core function
 
+The lib folder contains the following dependencies required for JUnit testing framework:
+
+- `hamcrest-core-1.3.jar`
+- `junit-4.13.2.jar`
+
 Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> The command line argument is mentioned as a value within double quotes to the parameter args in .vscode/launch.json
+The command line argument is mentioned as a value within double quotes to the parameter args in .vscode/launch.json
 
 ## Dependency Management
 
